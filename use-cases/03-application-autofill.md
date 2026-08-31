@@ -1,7 +1,7 @@
 # Application autofill and submission
 
 ## What it does
-Fills out application portals in your name using a standing answer set: graduation date, GPA, work authorization, sponsorship, demographics, links. The resume attached always matches the track: PM resume for PM roles, SWE resume for SWE roles.
+Fills out application portals in your name using a standing answer set: graduation date, GPA, work authorization, sponsorship, demographics, links. The resume attached always matches the role.
 
 ## How it runs
 Answers come from a captured set of fixed responses, so forty applications do not produce forty slightly different answers. Tailoring happens by reordering and reframing real experience, never by inventing numbers.
