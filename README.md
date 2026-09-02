@@ -1,6 +1,6 @@
 # 🎯 Instinct for Recruiting
 
-![Use cases](https://img.shields.io/badge/use%20cases-16-brightgreen) ![Status](https://img.shields.io/badge/status-field--tested-blue) ![Setup](https://img.shields.io/badge/setup-clone%20%26%20prompt-orange)
+![Use cases](https://img.shields.io/badge/use%20cases-17-brightgreen) ![Status](https://img.shields.io/badge/status-field--tested-blue) ![Setup](https://img.shields.io/badge/setup-clone%20%26%20prompt-orange)
 
 **One personal agent running the whole job hunt** - sourcing, applications, outreach, referrals, interviews, and the logistics around them. Everything in this repo is a use case that has actually run on a real search.
 
@@ -48,7 +48,8 @@
 | # | Use case | What it does |
 |---|----------|--------------|
 | 4 | [Cold recruiter outreach](use-cases/04-cold-recruiter-outreach.md) | Drafts staged and ready, sent one at a time on approval |
-| 5 | [Recruiter email discovery](use-cases/05-recruiter-email-discovery.md) | Addresses found and verified by a private email-enrichment pipeline - confirmed patterns only, never guessed |
+| 5 | [Recruiter email discovery](use-cases/05-recruiter-email-discovery.md) | Addresses found and verified through [treg](https://treg.to) - confirmed patterns only, never guessed |
+| 17 | [Recruiter email search at scale](use-cases/17-recruiter-email-search-at-scale.md) | Instinct + [treg](https://treg.to) + your CLI coding agent: batches staged, enriched locally, verified addresses written back - 10x the email search |
 | 12 | [InMail copy doc](use-cases/12-inmail-copy-doc.md) | Ranked, copy-paste-ready LinkedIn blocks |
 | 15 | [Rejection recovery](use-cases/15-rejection-recovery.md) | Rejections logged and triaged, follow-ups drafted for the doors worth keeping open |
 
@@ -105,6 +106,7 @@ No coding tool? The prompts below work as-is in any agent that can reach your in
 
 - "Draft a cold email to the recruiter on this posting. Don't send it."
 - "Find a verified email for this recruiter, or tell me it's LinkedIn-only: [LinkedIn URL]."
+- "Stage this recruiter batch and push it to my repo so my CLI agent can run treg on it."
 - "A rejection came in from [company]. Log it, and draft a follow-up if it's worth saving."
 - "I have a HireVue due Friday - put it on my calendar and remind me the day before."
 
