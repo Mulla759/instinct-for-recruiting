@@ -49,7 +49,7 @@
 |---|----------|--------------|
 | 4 | [Cold recruiter outreach](use-cases/04-cold-recruiter-outreach.md) | Drafts staged and ready, sent one at a time on approval |
 | 5 | [Recruiter email discovery](use-cases/05-recruiter-email-discovery.md) | Addresses found and verified through [treg](https://treg.to) - confirmed patterns only, never guessed |
-| 17 | [Recruiter email search at scale](use-cases/17-recruiter-email-search-at-scale.md) | Instinct + [treg](https://treg.to) + your CLI coding agent: batches staged, enriched locally, verified addresses written back - 10x the email search |
+| 17 | [Recruiter email search at scale](use-cases/17-recruiter-email-search-at-scale.md) | Instinct + [treg](https://treg.to) ([GitHub](https://github.com/superdesigndev/treg)) + your CLI coding agent: batches staged to your repo, enriched locally from your own clone, verified addresses written back - 10x the email search |
 | 12 | [InMail copy doc](use-cases/12-inmail-copy-doc.md) | Ranked, copy-paste-ready LinkedIn blocks |
 | 15 | [Rejection recovery](use-cases/15-rejection-recovery.md) | Rejections logged and triaged, follow-ups drafted for the doors worth keeping open |
 
