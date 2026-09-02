@@ -1,4 +1,4 @@
-# 🎯 Instinct for Recruiting
+# Instinct for Recruiting
 
 ![Use cases](https://img.shields.io/badge/use%20cases-17-brightgreen) ![Status](https://img.shields.io/badge/status-field--tested-blue) ![Setup](https://img.shields.io/badge/setup-clone%20%26%20prompt-orange)
 
@@ -6,20 +6,20 @@
 
 ---
 
-## 🧠 How it works
+## How it works
 
 **Instinct** is a personal AI agent. You text it like a person; it works like a teammate who never sleeps. Two pieces make that possible:
 
-- 🔌 **Connectors** link your accounts - Gmail, Calendar, Sheets, Docs, and more - with your permission. The agent reads what it needs and works where you already live: drafts in your Gmail, rows in your Sheets, events on your calendar.
-- 🔐 **The vault** holds your credentials securely. When a site needs a login, the agent signs in for you without a password ever passing through a chat.
+- **Connectors** link your accounts - Gmail, Calendar, Sheets, Docs, and more - with your permission. The agent reads what it needs and works where you already live: drafts in your Gmail, rows in your Sheets, events on your calendar.
+- **The vault** holds your credentials securely. When a site needs a login, the agent signs in for you without a password ever passing through a chat.
 
 **The split:** the agent does the ninety percent - sourcing, research, form filling, drafting, tracking, follow-ups. You do the last two minutes where a portal walls automation (captchas, logins, no-AI rules) and the one tap where your name goes on a send.
 
 ---
 
-## 🗂️ Use cases
+## Use cases
 
-### 🔍 Sourcing & watches
+### Sourcing & watches
 
 | # | Use case | What it does |
 |---|----------|--------------|
@@ -27,14 +27,14 @@
 | 11 | [Standing company watches](use-cases/11-standing-company-watches.md) | A dedicated eye on target employers' career pages |
 | 13 | [Role sweeps](use-cases/13-role-sweeps.md) | Wide passes for roles beyond what the tracker caught |
 
-### 📊 Tracking & sheets
+### Tracking & sheets
 
 | # | Use case | What it does |
 |---|----------|--------------|
 | 2 | [Application pipeline tracker](use-cases/02-application-tracker.md) | One live sheet for every role, stage, and deadline |
 | 16 | [Opportunity tracker sheet](use-cases/16-opportunity-tracker.md) | The intake queue: roles worth pursuing, ranked by fit and deadline |
 
-### ✍️ Applications & resumes
+### Applications & resumes
 
 | # | Use case | What it does |
 |---|----------|--------------|
@@ -43,7 +43,7 @@
 | 7 | [LinkedIn SEO/AEO audit](use-cases/07-linkedin-seo-aeo-audit.md) | Headline and profile benchmarked against profiles that rank |
 | 14 | [Application answer drafting](use-cases/14-application-answer-drafting.md) | Portal essays and short answers written from real material |
 
-### ✉️ Outreach & email
+### Outreach & email
 
 | # | Use case | What it does |
 |---|----------|--------------|
@@ -53,7 +53,7 @@
 | 12 | [InMail copy doc](use-cases/12-inmail-copy-doc.md) | Ranked, copy-paste-ready LinkedIn blocks |
 | 15 | [Rejection recovery](use-cases/15-rejection-recovery.md) | Rejections logged and triaged, follow-ups drafted for the doors worth keeping open |
 
-### 📅 Interviews & logistics
+### Interviews & logistics
 
 | # | Use case | What it does |
 |---|----------|--------------|
@@ -63,7 +63,7 @@
 
 ---
 
-## 🚀 Set this up for yourself
+## Set this up for yourself
 
 You don't need to rebuild anything from scratch. The use-case files are written as specs - the prompts, rules, and workflows for each one - so an AI coding tool can implement them against your own accounts.
 
@@ -79,7 +79,7 @@ No coding tool? The prompts below work as-is in any agent that can reach your in
 
 ---
 
-## 💬 Prompts to try
+## Prompts to try
 
 <details>
 <summary><b>Sourcing & tracking</b></summary>
@@ -114,9 +114,9 @@ No coding tool? The prompts below work as-is in any agent that can reach your in
 
 ---
 
-## 🛡️ Ground rules the agent works under
+## Ground rules the agent works under
 
-- 🚫 **Nothing sends without approval.** Drafts sit in Gmail until you say go, one at a time.
-- ✅ **No invented numbers.** Resumes and outreach reframe what is true; they never fabricate.
-- ⛔ **Employer rules are hard stops.** If a posting bans AI assistance, the agent preps instead of writes.
-- 🤫 **Quiet days stay quiet.** A watch with nothing real to report says so and stops.
+- **Nothing sends without approval.** Drafts sit in Gmail until you say go, one at a time.
+- **No invented numbers.** Resumes and outreach reframe what is true; they never fabricate.
+- **Employer rules are hard stops.** If a posting bans AI assistance, the agent preps instead of writes.
+- **Quiet days stay quiet.** A watch with nothing real to report says so and stops.
